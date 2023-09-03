@@ -5,7 +5,7 @@
 
 <h3>Jdbc app</h3>
 <p>Write id and fetch data from database and display</p>
-<form action="./Operations">
+<form action="./ShowStudent">
 	<input type="text" placeholder="id" name="id"/>
 	<input type="submit" />
 </form>
