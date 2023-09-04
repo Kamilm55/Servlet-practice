@@ -12,9 +12,10 @@
 <hr/>
 <h2>Second app: "/UploadFile" </h2>
 <h3>Choose file(s) you want to install:</h3>
-<form action="./UploadFile" method="post" enctype="multipart/form-data">
-	<input type="file" multiple />
-	<input type="submit" />
+<form method="post" action="./UploadFile" enctype="multipart/form-data">
+    Choose a file: <input type="file" multiple="multiple" name="UploadFile" />
+    <input type="submit" value="Upload" />
+</form>
 </form>
 </body>
 </html>
